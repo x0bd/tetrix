@@ -1,7 +1,6 @@
-import { useState } from "react";
-
-const Board = ({ rows, columns }) => {
-  const [board, useBoard] = useState([]);
+const Board = ({ board }) => {
+  console.log(`board: ${board}`);
+  // return <div>Board</div>;
 };
 
 export default Board;
