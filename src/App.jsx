@@ -1,11 +1,9 @@
 import "./css/App.css";
 
-import Game from "./components/Game";
-
 function App() {
   return (
     <div className="App">
-      <Game rows={20} columns={10} />
+      <h1>Hello Mom!</h1>
     </div>
   );
 }
