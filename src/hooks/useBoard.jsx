@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { buildBoard, nextBoard } from "/src/business/Board";
+import { buildBoard, nextBoard } from "../logic/Board";
 
 export const useBoard = ({
   rows,
